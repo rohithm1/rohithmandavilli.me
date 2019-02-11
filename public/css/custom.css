@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@@import url('https://fonts.google.com/specimen/Roboto+Condensed');
+)
+body {
+  background-color: white;
+}
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.topnav a:hover {
+  background-color: #ffe5b4;
+  color: red;
+}
+
+.topnav a.active {
+  background-color: #9E1A1A;
+  color: white;
+}
+
+.topnav a.name {
+  font-size: 40px;
+  background-color: white;
+  color: black;
+  margin-right: 15%;
+  margin-left:19%;
+  font-weight: bold;
+  position: relative;
+  top:-10px;
+}
+.overview h3{
+	font-family: "Open Sans";
+	font-weight: lighter;
+  font-style: normal;
+	font-size: 25px;
+	line-height: 1.2;
+	letter-spacing: -0.04em;
+	text-rendering: auto;
+	color: #333;
+	margin-top: -7px;
+	margin-bottom: 22px;
+  margin-top: 30px;
+  margin-left: 20%;
+
+}
+
+.line{
+  border-bottom:.5px solid rgb(0,0,0);
+  padding-bottom:10px;
+  margin-left: 20%;
+  margin-right: 22%;
+
+}
+.text-container .profile{
+  margin-left: 20%;
+}
+.text-container .welcome{
+  float:right;
+  margin-right: 47.5%;
+  position: relative;
+  top:-30px;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+}
+.text-container .description{
+  font-family: "Playfair Display";
+  float:right;
+  margin-left: 34%;
+  position: relative;
+  top:-205px;
+  word-wrap: break-word;
+  margin-right: 26%
+}
+.text-container .list{
+  margin-left: 20%;
+  position: relative;
+  top:-190px;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+}
+.items{
+  font-family: "Playfair Display";
+  top:-210px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20%;
+  position: relative;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  float:right;
+
+}
+.icon-container{
+  margin-right: 21%;
+  position:relative;
+  top:-275px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin{
+  background: #0077B5;
+  color: white;
+}
+.fa-github{
+  background: #ED2939;
+  color: white;
+}
+.fa-instagram{
+  background: #cca483;
+  color: white;
+}
+.fa-envelope-o{
+  background: yellow;
+  color: black;
+}
+.email{
+  margin-left: 20%;
+  position: relative;
+  top: -400px;
+}
+.projects {
+  position: relative;
+  width: 50%;
+  margin-left: 20%;
+}
+.label{
+  font-family: "Playfair Display";
+}
+.label2{
+  float: right;
+  position: relative;
+  left:-250px;
+  top:-267px;
+}
+.label4{
+  float: right;
+  position: relative;
+  left:-250px;
+  top:-530px;
+}
+.label5{
+  top:-300px;
+  position: relative;
+}
+.label6{
+  top:-740px;
+  left:-230px;
+  float: right;
+  position: relative;
+}
+.PS1{
+  width:50%;
+  height: auto;
+}
+.PS2{
+  position: relative;
+  float:right;
+  width:64%;
+  height: auto;
+  right:-207px;
+  top: -216px;
+}
+.PS3{
+  width:50%;
+  height: auto;
+  top: -300px;
+  position: relative;
+}
+.PS4{
+  position: relative;
+  float:right;
+  width:64%;
+  height: auto;
+  right:-207px;
+  top: -475px;
+}
+.PS5{
+  top: -540px;
+  width:50%;
+  height: auto;
+  position: relative;
+}
+.PS6{
+  top: -685px;
+  left: 228px;
+  width:64%;
+  height: auto;
+  position: relative;
+  float: right;
+}
+
+@-webkit-keyframes fade-in{
+  from{
+      opacity:1;
+      top:0px;
+  }
+  to{
+      opacity:0;
+      top:-5px;
+  }
+  }
+  .text1{
+    margin-left:20%;
+    font-family: monospace;
+  }
+  .text-animated-one{
+  display:inline;
+  position:relative;
+  top:0px;
+  margin-left:3px;
+  -webkit-animation:fade-in 6s infinite;
+  font-family: monospace;
+
+  }
+  .text-animated-two{
+  opacity:0;
+  display:inline;
+  position:relative;
+  margin-left:3px;
+  -webkit-animation:fade-in 6s infinite;
+  -webkit-animation-delay:1s;
+  font-family: monospace;
+
+  }
+  .text-animated-three{
+  opacity:0;
+  display:inline;
+  position:relative;
+  margin-left:3px;
+  -webkit-animation:fade-in 6s infinite;
+  -webkit-animation-delay:2s;
+  font-family: monospace;
+  }
+
+  .text-animated-four{
+  opacity:0;
+  display:inline;
+  position:relative;
+  margin-left:3px;
+  -webkit-animation:fade-in 6s infinite;
+  -webkit-animation-delay:3s;
+  font-family: monospace;
+  }
+  .text-animated-five{
+  opacity:0;
+  display:inline;
+  position:relative;
+  margin-left:3px;
+  -webkit-animation:fade-in 6s infinite;
+  -webkit-animation-delay:4s;
+  font-family: monospace;
+  }
+
+  .text-animated-six{
+  opacity:0;
+  display:inline;
+  position:relative;
+  margin-left:3px;
+  -webkit-animation:fade-in 6s infinite;
+  -webkit-animation-delay:5s;
+  font-family: monospace;
+  }
+  .repeater{
+  display:inline;
+  width:100px;
+  height:100px;
+
+  }
